@@ -1,0 +1,8 @@
+{
+  "name": "vitepress-scaffold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gregoiredechaine/vitepress-scaffold",
+  "author": "Gregoire Dechaine <gregdechaine@me.com>",
+  "license": "GNU General Public License v3.0"
+}
