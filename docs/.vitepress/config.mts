@@ -30,7 +30,7 @@ const vitePressOptions = {
 
 const vitePressSidebarOptions = {
   // VitePress Sidebar's Options Here:
-  documentRootPath: '/',
+  documentRootPath: '/docs',
   collapsed: false,
   capitalizeFirst: true
 };
