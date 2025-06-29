@@ -6,7 +6,8 @@
   "author": "Gregoire Dechaine <gregdechaine@me.com>",
   "license": "GNU General Public License v3.0",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-sidebar": "^1.31.1"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

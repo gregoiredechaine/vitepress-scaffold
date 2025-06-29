@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withSidebar } from 'vitepress-sidebar'
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressOptions = {
+  // VitePress's Options Here:
   title: "VitePress Scaffold",
   description: "A VitePress Scaffold Site",
   themeConfig: {
@@ -24,5 +25,17 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
-})
+  }  
+};
+
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's Options Here:
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+};
+
+// https://vitepress.dev/reference/site-config replaced with auto Sidebar Script
+export default defineConfig(
+  withSidebar(vitePressOptions, vitePressSidebarOptions)
+);
